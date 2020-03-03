@@ -6,19 +6,11 @@ Exemplo de entrada válida:<br>
 	"valor": 101
 <br>}<br>
 
-Saída:<br>
-{<br>
+Saída:{<br>
   "code": 0,<br>
   "sucesso": true,<br>
   "valor": 59,<br>
-  "resultado": [<br>
-    0,<br>
-    1,<br>
-    2,<br>
-    0,<br>
-    1,<br>
-    3<br>
-  ]<br>
+  "resultado": [ 0, 1, 2, 0, 1, 3 ]<br>
 }<br>
 
 Exemplo de entrada inválida:<br>
@@ -27,8 +19,7 @@ Exemplo de entrada inválida:<br>
 	"valor": 1
 <br>}<br>
 
-Saída:<br>
-{<br>
+Saída: {<br>
   "code": 1,<br>
   "sucesso": false,<br>
   "valor": 1,<br>
