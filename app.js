@@ -10,4 +10,8 @@ require('./src/app/controllers/index')(app);
 
 console.log("Escutando na porta:", process.env.PORT || 3000);
 
+app.get('/', function (req, res) {
+    res.send('API NodeJS de caixa eletrônico em execução!');
+  });
+
 app.listen(process.env.PORT || 3000);
